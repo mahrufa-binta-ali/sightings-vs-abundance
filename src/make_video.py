@@ -812,7 +812,7 @@ def insight_card():
 
     draw.text(
         (525, 720),
-        "MAEᴅ = (1/N) Σ |Dᵢ|",
+        "MAE_D = (1/N) Σ |Dᵢ|",
         font=STAT_FONT,
         fill=ACCENT_STYLES["raw"]["bar"] + (255,),
     )
@@ -831,7 +831,7 @@ def insight_card():
 
     draw.text(
         (980, 720),
-        "RMSᴅ = √[(1/N) Σ Dᵢ²]",
+        "RMS_D = √[(1/N) Σ Dᵢ²]",
         font=STAT_FONT,
         fill=ACCENT_STYLES["model-high"]["bar"] + (255,),
     )
@@ -905,14 +905,14 @@ def final_card():
 
         (
             670, 160, 945, 285,
-            "MAE(D)",
+            "MAE_D",
             f"{stats['mae_d']:.3f}",
             ACCENT_STYLES["modeled"]
         ),
 
         (
             970, 160, 1245, 285,
-            "RMS(D)",
+            "RMS_D",
             f"{stats['rmse_d']:.3f}",
             ACCENT_STYLES["model-high"]
         ),
