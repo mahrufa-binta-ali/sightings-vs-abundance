@@ -1,0 +1,57 @@
+# Python environment
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Rendered animation frames
+frames/
+
+# Generated video / temporary output
+output/
+*.mp4
+*.mov
+*.avi
+
+# Temporary images / plots
+*_temp.png
+scatter_plot_temp.png
+
+# Raw / external datasets
+data/raw/
+data/external/
+
+# Large geospatial source files
+*.tif
+*.tiff
+*.zip
+
+# Logs / caches
+*.log
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment variables / credentials
+.env
+.env.*
+
+# Superseded processed dataset
+data/processed/wood_thrush_grid_mismatch_2023.csv
+
+# Local processed datasets
+data/processed/*.csv
+
+# Superseded video compositor versions
+src/make_video_2.py
+src/make_video_3.py
+src/make_video_old.py

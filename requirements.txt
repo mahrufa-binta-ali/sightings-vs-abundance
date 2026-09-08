@@ -1,0 +1,9 @@
+pandas
+numpy
+requests
+rasterio
+pyproj
+scipy
+pydeck
+streamlit
+matplotlib
