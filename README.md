@@ -12,6 +12,23 @@ To examine that difference spatially, this project compares raw Wood Thrush repo
 
 ---
 
+## Demo
+
+A short cinematic walkthrough of the three spatial views:
+
+1. **Modeled relative abundance**
+2. **Raw Wood Thrush reporting**
+3. **Reporting-abundance divergence**
+
+https://github.com/user-attachments/assets/d96b51b4-1cc3-4cb8-a5a6-edd61ae7b4f4
+
+🔴 **Red:** reporting rank is higher than modeled-abundance rank  
+🔵 **Blue:** modeled-abundance rank is higher than reporting rank
+
+---
+
+---
+
 ## Research idea
 
 The comparison follows two parallel spatial signals:
@@ -291,7 +308,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/mahrufa-binta-ali/sightings-vs-abundance.git
-cd sightings-vs-abundance|
+cd sightings-vs-abundance
 ```
 Create a virtual environment:
 
@@ -313,6 +330,11 @@ Install the Chromium browser used by Playwright:
 ```bash
 playwright install chromium
 ```
+
+```
+> **Note:** The application requires the local datasets described in [`data/README.md`](data/README.md). Raw and processed data are not included in the repository.
+```
+
 ## Data
 
 Raw and processed datasets are intentionally not redistributed in this repository.
