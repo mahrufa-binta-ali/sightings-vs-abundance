@@ -64,10 +64,11 @@ where **Cᵢ** is the number of Wood Thrush-positive records in grid cell *i*.
 The percentile ranks are then calculated as:
 
 ```math
-R_i = \operatorname{rank}(L_i)
+R_i = \mathrm{rank}(L_i)
 ```
+
 ```math
-A_i = \operatorname{rank}(\text{relative abundance}_i)
+A_i = \mathrm{rank}(\mathrm{relative\ abundance}_i)
 ```
 
 and the divergence is:
