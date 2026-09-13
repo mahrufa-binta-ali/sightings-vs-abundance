@@ -204,7 +204,7 @@ The visualization is designed to answer a question that one correlation coeffici
 
 > **Where does the disagreement occur geographically?**
 
-```
+
 ## Project structure
 
 ```text
