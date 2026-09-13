@@ -1,67 +1,35 @@
-\# Sightings ≠ Abundance
+# Sightings ≠ Abundance
 
-
-
-\### A 3D spatial comparison of community-science reporting and modeled Wood Thrush relative abundance across New York
-
-
+### A 3D spatial comparison of community-science reporting and modeled Wood Thrush relative abundance across New York
 
 This project asks a simple question:
 
-
-
-> \*\*Do the places where Wood Thrush is reported most often also rank highest in modeled relative abundance?\*\*
-
-
+> **Do the places where Wood Thrush is reported most often also rank highest in modeled relative abundance?**
 
 Raw community-science observations are not a direct measure of abundance. Reporting patterns can reflect both the ecological distribution of a species and the way people observe, including accessibility, search effort, timing, and where checklists are submitted.
 
-
-
 To examine that difference spatially, this project compares raw Wood Thrush reporting with modeled relative abundance across New York during the 2023 breeding season.
 
+---
 
-
-\---
-
-
-
-\## Research idea
-
-
+## Research idea
 
 The comparison follows two parallel spatial signals:
 
-
-
 ```text
-
 Raw Wood Thrush reporting
-
-&#x20;       ↓
-
+        ↓
 Reporting percentile rank Rᵢ
 
-
-
 Modeled relative abundance
-
-&#x20;       ↓
-
+        ↓
 Abundance percentile rank Aᵢ
 
-
-
-&#x20;       ↓
-
+        ↓
 Dᵢ = Rᵢ − Aᵢ
-
-&#x20;       ↓
-
+        ↓
 Spatial divergence analysis
-
-&#x20;       ↓
-
+        ↓
 Interactive 3D visualization
 
 ### Where:
