@@ -44,7 +44,7 @@ Interactive 3D visualization
 - **Dᵢ > 0** → reporting rank is higher
 - **Dᵢ < 0** → modeled-abundance rank is higher
 - **Dᵢ ≈ 0** → the two rankings roughly agree
-```
+
 ---
 
 ## Why rank-space comparison?
