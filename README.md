@@ -31,6 +31,7 @@ Dᵢ = Rᵢ − Aᵢ
 Spatial divergence analysis
         ↓
 Interactive 3D visualization
+```
 
 ### Where:
 
