@@ -331,9 +331,9 @@ Install the Chromium browser used by Playwright:
 playwright install chromium
 ```
 
-```
+
 > **Note:** The application requires the local datasets described in [`data/README.md`](data/README.md). Raw and processed data are not included in the repository.
-```
+
 
 ## Data
 
