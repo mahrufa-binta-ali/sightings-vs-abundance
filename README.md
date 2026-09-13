@@ -228,6 +228,7 @@ sightings-vs-abundance/
     ├── render_showcase_frames.py
     └── make_video.py
 ```
+
 ## Workflow
 
 ### 1. Acquire occurrence records
