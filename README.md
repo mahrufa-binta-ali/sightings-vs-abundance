@@ -161,15 +161,9 @@ indicating that the most extreme grid cell had almost a full-scale separation be
 
 The top-decile overlap was evaluated with the Jaccard index:
 
-$$
-J_{10}
-=
-\frac{
-|T_R \cap T_A|
-}{
-|T_R \cup T_A|
-}
-$$
+```math
+J_{10} = \frac{|T_R \cap T_A|}{|T_R \cup T_A|}
+```
 
 where:
 
